@@ -6,7 +6,9 @@
 }
 
 body {
-    height: 100vh;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
 }
 ul {
     list-style-type: none;
@@ -43,9 +45,12 @@ ul {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    padding-left: 150px;
+    padding: 150px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    /* padding-left: 150px;
     padding-right: 150px;
-    padding-bottom: 50px;
+    padding-bottom: 50px; */
 }
 .baner p {
     max-width: 300px;
@@ -92,4 +97,43 @@ ul {
     border-style: none;
     color: #f9faf8;
     
+}
+
+.midsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 25px;
+}
+.cards{
+    display:flex;
+    width: 60%;
+    /* gap: 50px; */
+    justify-content: space-around;
+    
+    
+}
+.card{
+    display: flex;
+    width: 100px;
+    height: 200px;
+    /* border: 1px solid black; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.box{
+    width: 90px;
+    height: 90px;
+    border-radius: 5px;
+    border: 2px #3882f6 solid;
+}
+.description{
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-size: 9px;
+ text-align: center;
 }
