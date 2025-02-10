@@ -43,6 +43,9 @@ ul {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
 }
 .baner p {
     max-width: 300px;
@@ -50,7 +53,7 @@ ul {
 }
 .panel-right{
     background-color:grey;
-    min-width: 350px;
+    ;
     /* min-height: 150px; */
     flex-direction: column;
     align-self: stretch;
@@ -58,6 +61,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-grow: 1;
 }
 
 .panel-left h1{
@@ -74,6 +78,7 @@ ul {
 .panel-left{
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
 }
 #register-button{
     margin-top: 15px;
@@ -87,39 +92,4 @@ ul {
     border-style: none;
     color: #f9faf8;
     
-}
-
-/* CSS */
-.button-22 {
-  align-items: center;
-  appearance: button;
-  background-color: #0276FF;
-  border-radius: 8px;
-  border-style: none;
-  box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  display: flex;
-  flex-direction: row;
-  flex-shrink: 0;
-  font-family: "RM Neue",sans-serif;
-  font-size: 100%;
-  line-height: 1.15;
-  margin: 0;
-  padding: 10px 21px;
-  text-align: center;
-  text-transform: none;
-  transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.button-22:active {
-  background-color: #006AE8;
-}
-
-.button-22:hover {
-  background-color: #1C84FF;
 }
