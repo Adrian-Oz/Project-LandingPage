@@ -222,3 +222,12 @@ ul {
     color: #f9faf8;
     border-color: white;
 }
+
+
+.footer{
+    display: flex;
+    padding: 40px 60px;
+    background-color: #1f2937;
+    color: white;
+    justify-content: center;
+}
